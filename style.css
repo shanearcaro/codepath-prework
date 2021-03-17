@@ -1,0 +1,140 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #373737;
+  color: white;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 4rem;
+  color: #dc1e1e;
+  font-family: verdana, arial, sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#startBtn, #stopBtn {
+    margin-bottom: 2rem;
+    border-radius: 0;
+    padding: .25rem 2rem;
+    background-color: #373737;
+    color: white;
+}
+
+#center {
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+#gameButtonArea > image {
+    top: 100%;
+}
+
+.hidden {
+  display: none;
+}
+#button1 {
+  background: #e37c22;
+  background-image: url("https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Fpuppy1.jpg?v=1615844362237");
+  background-size: cover;
+}
+#button1:active, #button1.lit {
+  opacity: 40%;
+}
+
+#button2 {
+  background: #81f55b;
+  background-image: url("https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Fpuppy2.jpg?v=1615844364781");
+  background-size: cover;
+}
+#button2:active, #button2.lit {
+  opacity: 40%;
+}
+
+#button3 {
+  background: #37aba6;
+  background-image: url("https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Fpuppy3.jpg?v=1615844370352");
+  background-size: cover;
+}
+#button3:active, #button3.lit {
+  opacity: 40%;
+}
+
+#button4 {
+  background: #8e2cbf;
+  background-image: url("https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Fpuppy4.jpg?v=1615844373256");
+  background-size: cover;
+}
+#button4:active, #button4.lit {
+  opacity: 40%;
+}
+
+#button5 {
+  background: #153f7a;
+  background-image: url("https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Fpuppy5.jpg?v=1615844375972");
+  background-size: cover;
+}
+#button5:active, #button5.lit {
+  opacity: 40%;
+}
+
+#button6 {
+  background: #FFBA08;
+  background-image: url("https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Fpuppy6.jpg?v=1615844378400");
+  background-size: cover;
+}
+#button6:active, #button6.lit {
+  opacity: 40%;
+}
+
+#button7 {
+  background: #1e9636;
+  background-image: url("https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Fpuppy7.jpg?v=1615844380397");
+  background-size: cover;
+}
+#button7:active, #button7.lit {
+  opacity: 40%;
+}
+
+#button8 {
+  background: #D00000;
+  background-image: url("https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Fpuppy8.jpg?v=1615844382484");
+  background-size: cover;
+}
+#button8:active, #button8.lit {
+  opacity: 40%;
+}
+
+#button9 {
+  background: #0B4F6C;
+  background-image: url("https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Fpuppy9.jpg?v=1615844384880");
+  background-size: cover;
+}
+#button9:active, #button9.lit {
+  opacity: 40%;
+}
+
+.counters {
+  margin: 0 auto 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Simon Says Game!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body onload="init()">
+    <div id="center">
+        <h1>Light and Sound Memory Game</h1>
+    
+        <p>Welcome to the game! Repeat back the pattern by pressing buttons.</p>
+        
+        <button id="startBtn" onclick="startGame()">Start</button>
+        <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+        
+        <div id="gameButtonArea"></div>
+    </div>
+    <audio src="https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Faudio1.mp3?v=1615846535431" id="audio1"></audio>
+    <audio src="https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Faudio2.mp3?v=1615846539392" id="audio2"></audio>
+    <audio src="https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Faudio3.mp3?v=1615846542344" id="audio3"></audio>
+    <audio src="https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Faudio4.mp3?v=1615846545481" id="audio4"></audio>
+    <audio src="https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Faudio5.mp3?v=1615846548201" id="audio5"></audio>
+    <audio src="https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Faudio6.mp3?v=1615846551857" id="audio6"></audio>
+    <audio src="https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Faudio7.mp3?v=1615846552570" id="audio7"></audio>
+    <audio src="https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Faudio8.mp3?v=1615846553577" id="audio8"></audio>
+    <audio src="https://cdn.glitch.com/830b03cd-7c1f-4ca7-a549-cb1bc621eede%2Faudio9.mp3?v=1615846555885" id="audio9"></audio>
+    
+    <div class="counters">
+      <p id="timer">
+        Timer: 15
+      </p>
+      
+      <p id="lives">
+        Lives: 3
+      </p>
+    </div>
+
+  </body>
+</html>
